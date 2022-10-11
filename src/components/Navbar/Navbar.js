@@ -9,6 +9,7 @@ const Navbar = () => {
     const routes = [
         { name: 'HOME', path: '/' },
         { name: 'TOPICS', path: '/topics' },
+        { name: 'STATISTICS', path: '/statistics' },
         { name: 'BLOG', path: '/blog' },
     ]
 
