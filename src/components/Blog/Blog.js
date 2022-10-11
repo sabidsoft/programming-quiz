@@ -1,12 +1,15 @@
 import React from 'react';
-import ContextApi from '../ContextApi/ContextApi';
-import ReactRouter from '../ReactRouter/ReactRouter';
+import AboutContextApi from '../AboutContextApi/AboutContextApi';
+import AboutReactRouter from '../AboutReactRouter/AboutReactRouter';
+import AboutUseRef from '../AboutUseRef/AboutUseRef';
 
 const Blog = () => {
     return (
-        <div className='mt-28 mb-10'>
-            <ReactRouter/>
-            <ContextApi/>
+        <div className='mt-20 mb-10'>
+            <h1 className='text-4xl text-center font-semibold mb-20'>Blogs</h1>
+            <AboutReactRouter/>
+            <AboutContextApi/>
+            <AboutUseRef/>
         </div>
     );
 };
