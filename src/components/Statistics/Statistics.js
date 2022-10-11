@@ -5,7 +5,6 @@ import { BarChart, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Bar, Responsive
 const Statistics = () => {
     const data = useLoaderData()
     const quizes = data.data
-    console.log(quizes)
 
     return (
         <div className='h-screen flex flex-col justify-center items-center relative z-[-2]'>
