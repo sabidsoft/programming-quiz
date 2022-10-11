@@ -14,9 +14,9 @@ const Navbar = () => {
     ]
 
     return (
-        <nav>
+        <nav className='sticky top-0'>
             <div className='bg-cyan-400 relative z-10 py-5'>
-                <div className='flex justify-between w-[90%] mx-auto'>
+                <div className='flex justify-between w-[90%] md:w-[80%] mx-auto'>
                     <Link to={'/'} className='text-2xl font-semibold text-white'>Programming Quiz</Link>
                     {
                         open ? (
