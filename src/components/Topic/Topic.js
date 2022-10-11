@@ -11,11 +11,9 @@ const Topic = ({ topic }) => {
                 <img src={logo} alt="topic_image" className='bg-slate-100 mb-8 rounded' />
             </div>
             <h3 className='text-center text-2xl text-cyan-400 font-bold mb-8'>{name}</h3>
-            <Link to={`topics/${id}`}>
-                <div className='bg-cyan-400 py-3 px-5 rounded-r-full flex justify-between items-center'>
-                    <p className='text-white font-bold'>Start Quiz</p>
-                    <ArrowRightIcon className='w-6 h-6 text-white' />
-                </div>
+            <Link to={`/topics/${id}`} className='bg-cyan-400 py-3 px-5 rounded-r-full flex justify-between items-center'>
+                <p className='text-white font-bold'>Start Quiz</p>
+                <ArrowRightIcon className='w-6 h-6 text-white' />
             </Link>
         </div>
     );
