@@ -13,6 +13,10 @@ const Navbar = () => {
         { name: 'BLOG', path: '/blog' },
     ]
 
+    const toggleWhenNavLinkClicked = () => {
+        setOpen(!open)
+    }
+
     return (
         <nav className='sticky top-0'>
             <div className='bg-cyan-400 relative z-10 py-5'>
@@ -27,14 +31,14 @@ const Navbar = () => {
                     }
                     <ul className='hidden md:flex md:items-center'>
                         {
-                            routes.map(route => <NavbarLink route={route} key={route.id} />)
+                            routes.map(route => <NavbarLink route={route} key={route.name} toggleWhenNavLinkClicked={toggleWhenNavLinkClicked} />)
                         }
                     </ul>
                 </div>
             </div>
             <ul className={`bg-gray-900 flex flex-col items-center pt-5 absolute z-0 w-full duration-500 ease-in-out md:hidden ${open ? 'top-[72px]' : 'top-[-200px]'}`}>
                 {
-                    routes.map(route => <NavbarLink route={route} key={route.name} />)
+                    routes.map(route => <NavbarLink route={route} key={route.name} toggleWhenNavLinkClicked={toggleWhenNavLinkClicked} />)
                 }
             </ul>
         </nav>
