@@ -12,7 +12,15 @@ function App() {
       errorElement: <Error/>,
       children: [
         {
-          path: '/home',
+          path: '/',
+          element: <Home/>
+        },
+        {
+          path: '/topics',
+          element: <Home/>
+        },
+        {
+          path: '/blog',
           element: <Home/>
         },
       ]
