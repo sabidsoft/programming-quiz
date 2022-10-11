@@ -31,7 +31,7 @@ const Navbar = () => {
                     }
                     <ul className='hidden md:flex md:items-center'>
                         {
-                            routes.map(route => <NavbarLink route={route} key={route.name} toggleWhenNavLinkClicked={toggleWhenNavLinkClicked} />)
+                            routes.map(route => <NavbarLink route={route} key={route.name} />)
                         }
                     </ul>
                 </div>
