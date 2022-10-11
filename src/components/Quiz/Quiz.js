@@ -1,8 +1,8 @@
-import { EyeIcon } from '@heroicons/react/24/solid';
+import { EyeIcon } from '@heroicons/react/24/solid'
 import React from 'react'
 import { useLoaderData } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css'
 
 
 const Quiz = () => {

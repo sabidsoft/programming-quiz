@@ -1,6 +1,6 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import Topic from '../Topic/Topic';
+import React from 'react'
+import { useLoaderData } from 'react-router-dom'
+import Topic from '../Topic/Topic'
 
 const Topics = () => {
     const data = useLoaderData()
@@ -21,7 +21,7 @@ const Topics = () => {
                 }
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Topics;
+export default Topics

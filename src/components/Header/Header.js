@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import coverPhoto from '../../images/cover-photo.jpg'
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
             <h1 className='text-5xl text-white font-bold mb-5'>Programming Quiz</h1>
             <p className='text-white text-xl'>Test your programming knowledge by taking our quiz</p>
         </div>
-    );
-};
+    )
+}
 
-export default Header;
+export default Header

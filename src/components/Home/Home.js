@@ -1,7 +1,7 @@
-import React from 'react';
-import { useLoaderData } from 'react-router-dom';
-import Header from '../Header/Header';
-import Topic from '../Topic/Topic';
+import React from 'react'
+import { useLoaderData } from 'react-router-dom'
+import Header from '../Header/Header'
+import Topic from '../Topic/Topic'
 
 const Home = () => {
     const data = useLoaderData()
@@ -24,7 +24,7 @@ const Home = () => {
                 }
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Home;
+export default Home

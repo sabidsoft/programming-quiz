@@ -1,6 +1,6 @@
-import { ArrowRightIcon } from '@heroicons/react/24/solid';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Topic = ({ topic }) => {
     const { id, name, logo } = topic
@@ -16,7 +16,7 @@ const Topic = ({ topic }) => {
                 <ArrowRightIcon className='w-6 h-6 text-white' />
             </Link>
         </div>
-    );
-};
+    )
+}
 
-export default Topic;
+export default Topic

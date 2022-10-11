@@ -1,7 +1,7 @@
-import React from 'react';
-import AboutContextApi from '../AboutContextApi/AboutContextApi';
-import AboutReactRouter from '../AboutReactRouter/AboutReactRouter';
-import AboutUseRef from '../AboutUseRef/AboutUseRef';
+import React from 'react'
+import AboutContextApi from '../AboutContextApi/AboutContextApi'
+import AboutReactRouter from '../AboutReactRouter/AboutReactRouter'
+import AboutUseRef from '../AboutUseRef/AboutUseRef'
 
 const Blog = () => {
     return (
@@ -11,7 +11,7 @@ const Blog = () => {
             <AboutContextApi/>
             <AboutUseRef/>
         </div>
-    );
-};
+    )
+}
 
-export default Blog;
+export default Blog
