@@ -7,7 +7,7 @@ const Statistics = () => {
     const quizes = data.data
 
     return (
-        <div className='h-screen flex flex-col justify-center items-center relative z-[-2]'>
+        <div className='h-screen flex flex-col justify-center items-center'>
             <h1 className='text-3xl font-bold mb-20'>Charts of Quiz Total</h1>
             <ResponsiveContainer width={'90%'} height={400}>
                 <BarChart data={quizes}>
